@@ -39,6 +39,11 @@ function compruebaPalindromo(){
     alert("Tu frase "+resultado);
 }
 
+function detectaBoton(evento){
+  let id = evento.id;
+  alert("Botón pulsado: "+id);
+}
+
 function volteaPalabra(){
 	
 	var palabra = prompt("Introduce una palabra para voltearla");
